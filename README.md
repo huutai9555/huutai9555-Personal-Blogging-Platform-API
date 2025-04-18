@@ -30,7 +30,7 @@
 
 <p><b>Skills and technologies used::</b> CRUD for main operations, databases (SQL or NoSQL), server-side RESTful API.</p>
 
-<img src="https://assets.roadmap.sh/guest/blogging-platform-api.png" width="200" alt="Main Image" />
+<img src="https://assets.roadmap.sh/guest/blogging-platform-api.png" style="width: 100%; height: fit-content;" alt="Main Image" />
 
 <p>Let’s start with a very common one when it comes to backend projects.</p>
 
