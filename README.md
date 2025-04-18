@@ -24,50 +24,22 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 1. Personal Blogging Platform API
 
-## Installation
+<p><b>Difficulty:</b> Easy</p>
 
-```bash
-$ yarn install
-```
+<p><b>Skills and technologies used::</b> CRUD for main operations, databases (SQL or NoSQL), server-side RESTful API.</p>
 
-## Running the app
+<img src="https://assets.roadmap.sh/guest/blogging-platform-api.png" width="200" alt="Main Image" />
 
-```bash
-# development
-$ yarn run start
+<p>Let’s start with a very common one when it comes to backend projects.</p>
 
-# watch mode
-$ yarn run start:dev
+<p>This is a RESTful API that would power a personal blog. This implies that you’d have to create a backend API with the following responsibilities:</p>
+<ul>
+  <li>Return a list of articles. You can add filters such as publishing date, or tags.</li>
+  <li>Return a single article, specified by the ID of the article.</li>
+  <li>Create a new article to be published.</li>
+  <li>Delete a single article, specified by the ID.</li>
+  <li>Update a single article, again, you’d specify the article using its ID.</li>
+</ul>
 
-# production mode
-$ yarn run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ yarn run test
-
-# e2e tests
-$ yarn run test:e2e
-
-# test coverage
-$ yarn run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
